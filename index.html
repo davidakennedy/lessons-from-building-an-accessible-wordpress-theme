@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Lessons from Building an Accessible WordPress Theme</title>
+<!-- metadata -->
+<meta name="generator" content="S5" />
+<meta name="version" content="S5 1.1" />
+<meta name="presdate" content="20130813" />
+<meta name="author" content="David A. Kennedy" />
+<meta name="company" content="Rock Creek Strategic Marketing" />
+<!-- configuration parameters -->
+<meta name="zenView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,700,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="ui/zen/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/zen/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/zen/print.css" type="text/css" media="print" id="slidePrint" />
+<!-- S5 JS -->
+<script src="ui/zen/slides.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+<div id="currentSlide"><!-- DO NOT EDIT --></div>
+<div id="header"></div>
+<div id="footer">
+<h1>Accessibility Camp DC | October 12, 2013</h1>
+<h2>Lessons from Building an Accessible WordPress Theme</h2>
+</div>
+
+</div>
+
+
+<div class="presentation">
+
+<div class="slide">
+<h1>Lessons from Building an Accessible WordPress Theme</h1>
+<p>Or How to be Approach Accessible Theming <em>Like</em> a Ninja</p>
+<h3>David A. Kennedy</h3>
+<h4>Front End Developer/Accessibility Analyst | Rock Creek Strategic Marketing</h4>
+</div>
+
+<div class="slide">
+<h1>Hello!</h1>
+<h2>I'm Dave</h2>
+<p>I try to make the web a more accessible place.</p>
+<ul>
+<li>I like clean code, open source, CrossFit and peanut butter and jelly sandwiches.
+<li>I worked as an Online Communications Manager for The Arc, a national nonprofit that serves people with disabilities.</li>
+<li>I use to be a journalist and still love writing.</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>Where We're Headed?</h1>
+<p>Obviously, we're going to talk a bit about ninjas...</p>
+<ul class="alignleft">
+<li>Social media ninjas</li>
+<li>JavaScript ninjas</li>
+<li>Not really...</li>
+</ul>
+<img src="img/ninja-s.png" alt="Cartoon ninja" class="alignright" />
+</div>
+
+<div class="slide">
+<h1><em>Like</em> a Ninja, People</h1>
+<img src="img/ninja-m.png" alt="Cartoon ninja" class="alignleft" />
+<ul class="alignright">
+<li>What is web accessibility?</li>
+<li>Why it's important?</li>
+<li>I built Accessible Zen</li>
+<li>Always remain strategic</li>
+<li>Good accessibility is undetectable.</li>
+<li>Know your weapons</li>
+<li>Stay centered in battle.</li>
+</ul>
+<p>davidakennedy.com/2013/accessible-wordpress-theming-lessons</p>
+</div>
+
+<div class="slide">
+<h1>What is Web Accessibility?</h1>
+<p>Definitions vary</p>
+<blockquote>The practice of making websites and applications<br />usable by people of all abilities.</blockquote>
+</div>
+
+<div class="slide">
+<h1>Why it's important?</h1>
+<p>Almost <a href="http://www.census.gov/newsroom/releases/archives/miscellaneous/cb12-134.html">one in five Americans have a disability</a>, according to the United States Census Bureau. Many of those disabilities, such as vision problems or mobility issues, can impact how people use the web.</p>
+</div>
+
+<div class="slide">
+<h1>Why it's important?</h1>
+<p>Accessibility can drive innovation. When you create accessible projects, they can impact other areas. An example: fonts in relative units.</p>
+</div>
+
+<div class="slide">
+<h1>Accessible Zen</h1>
+<img src="img/screenshot.png" alt="Screenshot of Accessible Zen home page" class="aligncenter" />
+<div class="aligncenter">
+<p style="text-align: center;"><a href="https://github.com/davidakennedy/accessible-zen">Accessible Zen</a>, the inspiration for this talk.</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>1. Always Remain Strategic</h1>
+<div class="alignleft" style="width: 50%;">
+<p>My number one goal was to build a simple, accessible WordPress theme. That was hard. How did I not get distracted?</p>
+</div>
+<img src="img/ninja-m.png" alt="Cartoon ninja" class="alignright" />
+</div>
+
+<div class="slide">
+<h1>1. Always Remain Strategic</h1>
+<p>I followed a master. I looked to Leo Babauta of <a href="http://zenhabits.net/theme/">Zen Habits for inspiration</a>.</p>
+</div>
+
+<div class="slide">
+<h1>1. Always Remain Strategic</h1>
+<p>I kept accessibility as my sole focus. That meant I  had to make some sacrifices.</p>
+</div>
+
+<div class="slide">
+<h1>2. Good Accessibility is Undetectable</h1>
+<img src="img/ninja-m.png" alt="Cartoon ninja" class="alignleft" />
+<div class="alignright" style="width: 50%;">
+<p>I kept things modern, but still kept "accessible" as part of the name. Oh, and Accessible Zen isn't that much different from <a href="https://github.com/automattic/_s">Underscores</a>.</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>2. Good Accessibility is Undetectable</h1>
+<p>When I look at the final product, I can't <strong>see</strong> what makes it accessible on the surface.</p>
+</div>
+
+<div class="slide">
+<h1>3. Know Your Weapons</h1>
+<div class="alignleft" style="width: 50%;">
+<p>You don't have to do it all, but know your basic weapons.</p>
+</div>
+<img src="img/ninja-m.png" alt="Cartoon ninja" class="alignright" />
+</div>
+
+<div class="slide">
+<h1>3. Know Your Weapons</h1>
+<p>Start with the basics.</p>
+<li><a href="http://underscores.me/">Starter theme: Underscores</a></li>
+<li><a href="http://wordpress.org/themes/twentythirteen">Core theme: Twenty Thirteen</a></li>
+<li><a href="https://github.com/RRWD/accessible-twenty-eleven-theme">Child theme: Accessible Twenty Eleven</a></li>
+<li><a href="http://wordpress.org/themes/accessible-onetwo">Child theme: Accessible One Two</a></li>
+<li><a href="http://wordpress.org/themes/blaskan">Custom theme: Blaskan</a></li>
+<li><a href="https://github.com/davidakennedy/accessible-zen">Custom theme: Accessible Zen</a></li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>3. Know Your Weapons</h1>
+<p>Color matters. High contrast helps everyone.</p>
+<ul>
+<li>Text and images of text have a contrast ratio of at least 4.5:1</li>
+<li>Large text (over 18 point or 14 point bold) has a contrast ratio of at least 3:1</li>
+</ul>
+<p>Choose wisely:</p>
+<ul>
+<li><a href="http://accessibility.oit.ncsu.edu/tools/color-contrast/index.php">Color Palette Accessibility Checker</a></li>
+<li><a href="http://0to255.com/">0 to 255</a></li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>3. Know Your Weapons</h1>
+<p>Skip nav links are awesome. I almost didn't put one in.</p>
+</div>
+
+<div class="slide">
+<h1>3. Know Your Weapons</h1>
+<p>Keep the underline on links and define focus styles. I went with a dotted border and a "depressed" effect on click to highlight links.</p>
+</div>
+
+<div class="slide">
+<h1>3. Know Your Weapons</h1>
+<p>I decided to display my titles <strong>with</strong> my "Read more" links.</p>
+</div>
+
+<div class="slide">
+<h1>4. Stay Centered in Battle</h1>
+<img src="img/ninja-m.png" alt="Cartoon ninja" class="alignleft" />
+<div class="alignright" style="width: 50%;">
+<p>Break from all the coding, the buzz words and the requirements to remember why you're doing what you're doing.</p>
+</div>
+</div>
+
+<div class="slide">
+<h1>4. Stay Centered in Battle</h1>
+<blockquote class="twitter-tweet"><p><a href="https://twitter.com/DavidAKennedy">@DavidAKennedy</a> <a href="https://twitter.com/steveofmaine">@steveofmaine</a> Thank you. SO far, I&#39;m loving this one!!!</p>&mdash; Shane Jackson (@jack728) <a href="https://twitter.com/jack728/statuses/351753432673165313">July 1, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<div class="slide">
+<h1>5. Wait a Minute!</h1>
+<p>You didn't talk a lot about WordPress? We hear a lot about content management systems, frameworks, generators and the like...</p>
+<p>Those don't matter. Accessibility transcends technology. It's about <em>people</em>. People use that technology and people make that technology accessible.</p>
+</div>
+
+<div class="slide">
+<h1>Help!</h1>
+<ul>
+<li>Help WordPress be Accessible: <a href="http://make.wordpress.org/accessibility/">Make WordPress Accessibility Group</a></li>
+<li>Contribute to an accessible starter theme: <a href="https://github.com/Automattic/_s">Underscores</a></li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>You're Awesome!</h1>
+<ul class="alignleft" style="width: 45%;">
+<li>Website: <a href="http://davidakennedy.com">davidakennedy.com</a></li>
+<li>Talk: <a href="http://davidakennedy.com/2013/accessibility-camp-dc-2013/">Lessons from Building an Accessible WordPress Theme</a></li>
+<li>Twitter: <a href="http://twitter.com/davidakennedy">@DavidAKennedy</a></li>
+<li>Theme: <a href="http://github.com/davidakennedy/accessible-zen">Accessible Zen</a></li>
+<li>Ninja: by <a href="http://www.vecteezy.com/random-objects/35122-japanese-ninja">Juancho10</a></li>
+<li>Slides made with: <a href="https://github.com/davidakennedy/zen-slides">Zen Slides</a></li>
+</ul>
+<img src="img/ninja-l.png" alt="Cartoon ninja" class="alignright" />
+</div>
+
+</div>
+
+</body>
+</html>
